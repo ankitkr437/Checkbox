@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="checkbox.css">
+     <title>Document</title>
+ </head>
+ <body>
+    <div class="container">
+        <div class="input1" onclick="check1()">
+            <p>Option 1</p>
+            <input type="checkbox" id="inp1" onclick="check1()"/> 
+        </div>
+        <div class="input1" onclick="check2()">
+            <p>Option 2</p>
+            <input type="checkbox" id="inp2" onclick="check2()"/>
+        </div>
+        <div class="input1" onclick="check3()">
+            <p>Option 3</p>
+            <input type="checkbox" id="inp3" onclick="check3()"/>
+        </div>
+        <div class="input1" onclick="check4()">
+            <p>Option 4</p>
+            <input type="checkbox" id="inp4" onclick="check4()"/>
+        </div>
+        <div class="input1" onclick="check5()">
+            <p>Option 5</p>
+            <input type="checkbox" id="inp5" onclick="check5()"/>
+        </div>
+    </div>
+ </body>
+  <script>
+   function check1()
+   {
+       document.getElementById('inp1').checked=!( document.getElementById('inp1').checked)
+   }
+   function check2()
+   {
+       document.getElementById('inp2').checked=!( document.getElementById('inp2').checked)
+   }
+   function check3()
+   {
+       document.getElementById('inp3').checked=!( document.getElementById('inp3').checked)
+   }
+   function check4()
+   {
+       document.getElementById('inp4').checked=!( document.getElementById('inp4').checked)
+   }
+   function check5()
+   {
+       document.getElementById('inp5').checked=!( document.getElementById('inp5').checked)
+   }
+  </script>
+ </html>
